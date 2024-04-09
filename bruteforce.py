@@ -1,3 +1,13 @@
+""" si quieres realizar un ataque de fuerza bruta y tienes el usuario 
+y te falta la contraseña estas en el lugar indicado
+solo en """
+try_login(url, 'admin', password):
+""" hay que cambiar el usuario que en este caso
+es 'admin' pero tu lo puedes modificar por cualquier usuario
+y cuando te pide el diccionario tienes que poner la ubicacion de tu diccionario txt
+en mi caso les recomiendo usar el diccionario o wordlist Rockyou.txt 
+"""
+
 import requests
 
 def try_login(url, username, password):
